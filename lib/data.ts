@@ -30,39 +30,45 @@ export const benefits = [
 export const products = [
   {
     title: "CashGuard Core",
-    blurb: "Compact automated cash management for small to medium retail environments.",
-    image: "/images/product-1.png",
+    blurb: "New generation CashGuard with sleek design and small footprint. Ideal for supermarkets, convenience stores, and forecourts.",
+    image: "/images/cashguard-core.jpeg",
     href: "#",
+    price: "€12.5K",
   },
   {
-    title: "CashGuard Pro",
-    blurb: "Advanced solution with multi-currency support and high-volume capacity.",
-    image: "/images/product-2.png",
+    title: "CashGuard Premium",
+    blurb: "500+ installations nationwide. Fastest cash machine technology for note return with dedicated slot for each denomination.",
+    image: "/images/cashguard-premium.jpeg",
     href: "#",
+    price: "€11.8K",
   },
   {
-    title: "CashGuard Enterprise",
-    blurb: "Full-scale deployment for large retail chains with centralized management.",
-    image: "/images/product-3.png",
+    title: "CashProtect Pro",
+    blurb: "Ideal for supermarkets, convenience stores, forecourts, bars and restaurants. Single note slot for acceptance and return.",
+    image: "/images/cashprotect-pro.jpeg",
     href: "#",
+    price: "€11.5K",
   },
   {
-    title: "CashGuard Compact",
-    blurb: "Space-efficient design perfect for hospitality and quick-service restaurants.",
-    image: "/images/product-1.png",
+    title: "CashProtect Fusion",
+    blurb: "Perfect for small convenience shops, pharmacy, hospitality. All-in-one note and coin acceptance and return.",
+    image: "/images/cashprotect-fusion.jpeg",
     href: "#",
+    price: "€8.5K",
   },
   {
-    title: "CashGuard Vault",
-    blurb: "Secure back-office solution for end-of-day reconciliation and storage.",
-    image: "/images/product-2.png",
+    title: "CashMag Mini",
+    blurb: "Ideal for pharmacy, restaurants, and limited space environments. Compact all-in-one solution.",
+    image: "/images/cashmag-mini.jpeg",
     href: "#",
+    price: "€6.5K",
   },
   {
-    title: "CashGuard Connect",
-    blurb: "Cloud-connected system with real-time analytics and remote monitoring.",
-    image: "/images/product-3.png",
+    title: "CashGuard Uni",
+    blurb: "Compact front-office cash recycling solution. Accepts, validates, and dispenses both notes and coins.",
+    image: "/images/cashguard-uni.jpeg",
     href: "#",
+    price: "€6.5K",
   },
 ];
 
@@ -78,9 +84,9 @@ export const kpis = [
     note: "Average transaction time saved",
   },
   {
-    value: "50+",
+    value: "500+",
     label: "Installations",
-    note: "Across retail and hospitality",
+    note: "Nationwide across Ireland",
   },
   {
     value: "24/7",
@@ -107,9 +113,11 @@ export const footerLinks = {
   ],
   products: [
     { label: "CashGuard Core", href: "#" },
-    { label: "CashGuard Pro", href: "#" },
-    { label: "CashGuard Enterprise", href: "#" },
-    { label: "Accessories", href: "#" },
+    { label: "CashGuard Premium", href: "#" },
+    { label: "CashProtect Pro", href: "#" },
+    { label: "CashProtect Fusion", href: "#" },
+    { label: "CashMag Mini", href: "#" },
+    { label: "CashGuard Uni", href: "#" },
   ],
   industries: [
     { label: "Retail", href: "#" },
@@ -132,7 +140,7 @@ export const footerLinks = {
 };
 
 export const trustBullets = [
-  "50+ installs",
-  "Trusted by top retailers",
+  "500+ installations nationwide",
+  "Trusted by Irish retailers",
   "Full installation & support",
 ];
