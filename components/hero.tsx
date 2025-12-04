@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { Check, Download } from "lucide-react";
+import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GridBg } from "@/components/ornaments/grid-bg";
 import { Cubes } from "@/components/ornaments/cubes";
@@ -101,10 +101,6 @@ export function Hero() {
             >
               <Button size="lg" className="glow-accent">
                 Book a Demo
-              </Button>
-              <Button variant="secondary" size="lg">
-                <Download className="mr-2 h-4 w-4" />
-                Download Product Catalogue
               </Button>
             </motion.div>
 
